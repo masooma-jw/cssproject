@@ -327,7 +327,7 @@ h3{
 }
 
 .facContent{
-    /* flex-basis: 66.66%; */
+    flex-basis: 70%;
     /* flex-grow: 0;
     flex-shrink: 0; */
 }
