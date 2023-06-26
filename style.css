@@ -95,20 +95,24 @@ nav img{
 
 .course{
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
+    margin-top: 1px;
     text-align: center;
     padding-top: 100px;
-    background: linear-gradient(rgba(172, 94, 31, 0.171),rgba(97, 45, 35, 0.9));
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1464062901860-6bfe29568e56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1297&q=80);
     justify-content: space-around;
+    color: white;
     
 }
 
-h1 {
+.course h1 {
+    color: rgb(204, 147, 3);
     font-size: 35px;
     font-weight: 600;
 }
 p{
-    color: black;
+    color: white;
+
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -125,7 +129,8 @@ p{
 .course-col{
 
     flex-basis: 31%;
-    background: pink;
+    background: transparent;
+    color:white;
     border-radius: 10px;
     margin-bottom: 5%;
     
@@ -133,24 +138,34 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 
+
+}
+.course-col p{
+    color: white;
 }
 h3{
+    
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
 
 .course-col:hover{
-    box-shadow: 0 0 20px rgba(0,0,0,20);
+    box-shadow: 0 0 20px white;
 
 }
 
 .campus{
-    width: 100%;
-    margin: auto;
+    color: orangered;
+    width: 92%;
+    margin-top: 1px;
+    /* margin: auto; */
     text-align: center;
-    padding-top: 4%;
-    background: linear-gradient(rgba(129, 87, 119, 0),rgba(126, 81, 112, 0.7))
+    padding: 4%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),black), url(https://images.unsplash.com/photo-1477659803863-c1bf91b34c90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .campus-col{
     flex-basis: 22%;
@@ -175,7 +190,7 @@ h3{
     transition: 0.5s;
 } 
 .layer:hover{
-    background: rgba(225,0,0,0.7);
+    background: rgba(22,0,0,0.7);
     
 }
 .layer h3{
@@ -196,21 +211,25 @@ h3{
 
 }
 .facilities {
-    
+
     width: 100%;
     height: 40%;
-    margin: auto;
+    margin-top: 1px;
     text-align: center;
     padding-top: 4%;
-    border-radius: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),black), url(https://images.unsplash.com/photo-1618944847828-82e943c3bdb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    /* border-radius: 20px; */
+    padding-bottom: 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),black), url(https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80https://images.unsplash.com/photo-1618944847828-82e943c3bdb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.facilities p, .facilities h1, .facilities h3{
-    color: white;
+ .facilities h1, .facilities h3{
+    color: rgb(238, 113, 113);
+}
+.facilities h3 {
+    color: rgb(223, 92, 92);
 }
 
 .facilities-col{
@@ -229,12 +248,13 @@ h3{
     /* align-items: center; */
     /* margin-left: 80px; */
     border-radius: 20px;
-    /* height: 100%; */
+    height: 70%;
     display: block;
+    box-shadow: 0 0 20px pink;
 }
 .facilities-col p{
     padding: 1%;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
     
 }
 .facilities-col h3{
@@ -245,28 +265,32 @@ h3{
     /* color: white; */
 }
 .testimonial{
+    color: pink;
     width: 100%;
-    margin-top: 200px;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
-    padding-top: 1%;
-    margin-top: 100px;
+    padding: 2% 0%;
+    margin-top: 2px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1637055159652-2b8837731f00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80https://images.unsplash.com/photo-1496989981497-27d69cdad83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=931&q=80https://images.unsplash.com/photo-1464062901860-6bfe29568e56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1297&q=80);
+    background-size: contain;
+    position: relative;
 }
 
 .testimonial-col{
-    flex-basis: 44%;
+    flex-basis: 50%;
     border-radius: 10px;
     margin-bottom: 5%;
     margin: 0% 5%;
     margin-bottom: 4%;
     text-align: left;
-    background: pink;
-    padding:46px;
+    background: transparent;
+    box-shadow: 0 0 20px pink;
+    padding: 20px;
     cursor: pointer;
     display: flex;
 }
 .testimonial-col img{
-    height: 40px;
+    height: 60px;
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
@@ -281,20 +305,21 @@ h3{
     text-align: left;
 }
 .cta{
-    margin: 100px auto;
-    width: 50%;
-    height: 100%;
-    background-image: url(images/jovan-vasiljevic-wmyVnFRYhlo-unsplash.jpg);
+   
+    margin: 2px;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.2)), url(images/jovan-vasiljevic-wmyVnFRYhlo-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     padding: 100px 0;
 
 }
 .cta h1{
-    color: white;
-    padding: 0%;
+     color: yellow;
+    padding: 1%;
 }
 .footer{
     width: 100%;
@@ -303,7 +328,7 @@ h3{
 }
 .footer h4{
     margin-bottom: 25px;
-    margin-top:px;
+    /* margin-top:px; */
     font-weight: 600;
 }
 .icons .fa{
@@ -315,6 +340,9 @@ h3{
 
 .footer {
    color: brown;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1637055159652-2b8837731f00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: contain;
+    position: relative;
 } 
 
 .facImg {
@@ -327,7 +355,7 @@ h3{
 }
 
 .facContent{
-    flex-basis: 66.66%;
+    flex-basis: 70%;
     /* flex-grow: 0;
     flex-shrink: 0; */
 }
