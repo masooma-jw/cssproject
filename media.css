@@ -119,8 +119,8 @@ nav .fa{
 }
 
 @media(max-width:700px){
-    .cta h1{
-        /* font-size: px; */
+    .cta {
+        height: 10vh; 
 
     }
 }
