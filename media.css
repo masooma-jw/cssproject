@@ -11,7 +11,6 @@ nav .fa{
 
     .nav-links ul li {
         display: block;
-        /* list-style: square ; */
       
      }
      .header{
@@ -76,15 +75,11 @@ nav .fa{
 
     .campus-col h3{
         top: 90%;
-        /* flex-direction: column; */
     }
     
 }
 @media(max-width:700px){
     
-    /* .facilities-col img{
-        
-    }  */
     .facilities{
         padding-bottom: 10%;
     }
@@ -96,8 +91,6 @@ nav .fa{
     }
     .testimonial-col img{
         display: flex;
-        
-        /* flex-direction: column; */
         margin-left: 0px;
         margin-right: 30px;
     }
@@ -108,13 +101,11 @@ nav .fa{
     .facImg{
         flex-basis: 40%;
         width: 10px;
-        /* height: 0px; */
        
     }
      
     .facContent{
         flex-basis: 60%;
-        /* width: 150px; */
     }  
 }
 
