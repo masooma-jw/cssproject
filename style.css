@@ -236,16 +236,17 @@ h3{
     flex-basis: 32%;
     border-radius: 20px;
     margin-bottom: 5%;
-    text-align: left;
+    /* text-align: left; */
     align-items: center;
     justify-content: center;
 
 }
 .facilities-col img{
-    width: 70px;
+    width: 300px;
     border-radius: 20px;
-    height: 70px;
+    height: 300px;
     box-shadow: 0 0 6px pink;
+   
 }
 
 .facilities-col h3{
